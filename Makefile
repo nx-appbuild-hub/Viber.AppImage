@@ -11,7 +11,7 @@ all:
 	rm -rf AppDir/opt
 
 	mkdir --parents AppDir/opt/application
-	cp -r build/opt/viber//* AppDir/opt/application
+	cp -r build/opt/viber/* AppDir/opt/application
 
 	chmod +x AppDir/AppRun
 
